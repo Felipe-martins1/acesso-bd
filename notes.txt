@@ -1,0 +1,40 @@
+- Categories: id, category
+- Products: id, product, price
+- Images: id, description, url
+
+- Category has many Products
+- Product has and belongs to many Categories
+- Product has many Images
+
+Category <> N:M <> Product
+Product 1:N Images
+
+---- Operações:
+- CRUD: para todos
+- buscar todos os produtos por 1 categoria
+- buscar 1 produto > trazer imagens(ou pelo menos a primeira)
+- paginate
+
+NoSQL > Collection > Documents
+
+SQL > Tabela > Registros
+Schema
+
+Categories:
+    id:
+    category:
+
+Category_Product
+    category_id:
+    product_id:
+
+Products:
+    id:
+    product:
+    price:
+
+Images:
+    id:
+    description:
+    url:
+    product_id
