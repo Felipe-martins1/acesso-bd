@@ -1,4 +1,6 @@
+# Database study repository
+ENG - This repository consists of the study of different databases, from modeling to the creation of CRUDs, a system of migrations was also made.</br>
+PTBR - Esse repositorio consiste no estudo de diferentes bancos de dados, desde a modelagem até a criação de CRUDs, também foi feito um sistema de migrations
 
-<h3>Repositório para estudo de banco de dados</h3>
-<h2>Bancos estudados:</h2>
-<h4>Firestore, SQLite, MySQL(Com sistema de Migrations)</h4>
+<h1>Databases: </h1>
+<h2>Firestore, SQLite, MySQL(Migrations)</h2>
